@@ -128,16 +128,15 @@ $('document').ready(function(){
                 }  
             }
     
-            if(options =="6d"){
-                if(answer1 =="SAHUR"){
+            if(options=="6.Mendatar"){
+                if(answer1=="SAHUR"){
                     for (var b=115; b<=119; b++){
-                        $(`.jwb${y}`).text(array1.shift());
+                        $(`.jwb-${b}`).text(array1.shift());
                     }               
                 }else{
                     alert('jawaban salah')
                 }  
             }
-    
         })
 
     })
